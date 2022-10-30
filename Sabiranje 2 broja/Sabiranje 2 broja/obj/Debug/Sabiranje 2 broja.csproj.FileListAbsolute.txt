@@ -1,5 +1,0 @@
-C:\Users\Korisnik\Desktop\Sabiranje 2 broja\Sabiranje 2 broja\bin\Sabiranje 2 broja.dll
-C:\Users\Korisnik\Desktop\Sabiranje 2 broja\Sabiranje 2 broja\bin\Sabiranje 2 broja.pdb
-C:\Users\Korisnik\Desktop\Sabiranje 2 broja\Sabiranje 2 broja\obj\Debug\Sabiranje 2 broja.csprojResolveAssemblyReference.cache
-C:\Users\Korisnik\Desktop\Sabiranje 2 broja\Sabiranje 2 broja\obj\Debug\Sabiranje 2 broja.dll
-C:\Users\Korisnik\Desktop\Sabiranje 2 broja\Sabiranje 2 broja\obj\Debug\Sabiranje 2 broja.pdb
