@@ -1,0 +1,114 @@
+﻿<html>
+<head>
+ <title>Igor Kremic | Kalculator</title>
+ <style>
+      #naslov {
+ font-family:Arial;
+ font-size:xx-large;
+ color:blue;
+ text-align:center;
+ margin-top:50px;
+ margin-bottom:20px;
+ font-weight:bold;
+}
+      #podnaslov {
+ color:red;
+ text-align:center;
+ margin-bottom:50px;
+ font-style:italic;
+}
+table {
+ width:100%;
+}
+.levo {
+ width:50%;
+ text-align:right;
+}
+.desno{
+ width:50%;
+}
+#centar{
+ text-align :center;
+}
+tr{
+ height:40px;
+}
+label{
+ font-style:italic;
+ color:#0026ff;
+ font-size:18px;
+}
+#dugme{
+ padding:10px 20px;
+ background-color:#0026ff;
+ color:white;
+ border-radius:10px;
+ cursor:pointer;
+}
+ </style>
+</head>
+<body>
+ <div id="naslov">KALKULATOR</div>
+ <div id="podnaslov">Unesite brojeve, izaberite operaciju, pritinite dugme i
+ dobicete resenje.</div>
+ <table>
+ <tr> <!-- broj 1 -->
+ <td class="levo"><label>Unesite 1. broj : </label></td>
+ <td class="desno"><input id="broj1" type="number" min="1"
+ max="100"/></td>
+ </tr>
+ <tr> <!-- broj 2 -->
+ <td class="levo"><label>Unesite 2. broj : </label></td>
+ <td><input id="broj2" type="number" min="1" max="100"/></td>
+ </tr>
+ <tr> <!-- operacija -->
+ <td class="levo"><label>Izaberite operaciju : </label></td>
+ <td>
+ <select id="operacija">
+ <option value="nista"></option>
+ <option value="+">sabiranje</option>
+ <option value="-">oduzimanje</option>
+ <option value="*">mnozenje</option>
+ <option value="/">deljenje</option>
+ </select>
+ </td>
+ </tr>
+ <tr> <!--dugme -->
+ <td colspan="2" id="centar">
+ <input id="dugme" type="button" value="Prikazi ..."
+ onclick="fun();"/>
+ </td>
+ </tr>
+ <tr> <!-- rezultat-->
+ <td class="levo"><label>Rezultat : </label></td>
+ <td><input id="rez" type="text" readonly="readonly"/></td>
+ </tr>
+ </table>
+ <script>
+
+     function fun() {
+         var x = parseInt(document.getElementById("broj1").value);
+         var y = parseInt(document.getElementById("broj2").value);
+         var operacija = document.getElementById("operacija").value;
+         if ((y == 0) && (operacija = "/"))
+             alert("Nije moguce deljenje sa nulom")
+         else
+             switch (operacija) {
+                 case "+": document.getElementById("rez").value = x + y; break;
+                 case "-": document.getElementById("rez").value = x - y; break;
+                 case "*": document.getElementById("rez").value = x * y; break;
+                 case "/": document.getElementById("rez").value = (x / y).toFixed(2);
+                     break;
+                 default: alert("Niste izabrali operaciju!!!");
+             }
+         setTimeout(brisi, 2000);
+     }
+     function brisi() {
+         document.getElementById("broj1").value = "";
+         document.getElementById("broj2").value = "";
+         document.getElementById("operacija").value = "nista";
+         document.getElementById("rez").value = "";
+     }
+ </script>
+</body>
+</html>

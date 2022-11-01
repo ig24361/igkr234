@@ -1,0 +1,5 @@
+C:\Users\Korisnik\Desktop\Novak Djokovic\Novak Djokovic\bin\Novak Djokovic.dll
+C:\Users\Korisnik\Desktop\Novak Djokovic\Novak Djokovic\bin\Novak Djokovic.pdb
+C:\Users\Korisnik\Desktop\Novak Djokovic\Novak Djokovic\obj\Debug\Novak Djokovic.csprojResolveAssemblyReference.cache
+C:\Users\Korisnik\Desktop\Novak Djokovic\Novak Djokovic\obj\Debug\Novak Djokovic.dll
+C:\Users\Korisnik\Desktop\Novak Djokovic\Novak Djokovic\obj\Debug\Novak Djokovic.pdb

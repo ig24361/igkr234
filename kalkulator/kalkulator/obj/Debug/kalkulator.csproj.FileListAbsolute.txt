@@ -1,0 +1,5 @@
+C:\Users\Korisnik\Desktop\kalkulator\kalkulator\bin\kalkulator.dll
+C:\Users\Korisnik\Desktop\kalkulator\kalkulator\bin\kalkulator.pdb
+C:\Users\Korisnik\Desktop\kalkulator\kalkulator\obj\Debug\kalkulator.csprojResolveAssemblyReference.cache
+C:\Users\Korisnik\Desktop\kalkulator\kalkulator\obj\Debug\kalkulator.dll
+C:\Users\Korisnik\Desktop\kalkulator\kalkulator\obj\Debug\kalkulator.pdb

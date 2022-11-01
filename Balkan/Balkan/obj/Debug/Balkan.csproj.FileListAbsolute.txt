@@ -1,0 +1,5 @@
+C:\Users\Korisnik\Desktop\Balkan\Balkan\bin\Balkan.dll
+C:\Users\Korisnik\Desktop\Balkan\Balkan\bin\Balkan.pdb
+C:\Users\Korisnik\Desktop\Balkan\Balkan\obj\Debug\Balkan.csprojResolveAssemblyReference.cache
+C:\Users\Korisnik\Desktop\Balkan\Balkan\obj\Debug\Balkan.dll
+C:\Users\Korisnik\Desktop\Balkan\Balkan\obj\Debug\Balkan.pdb
