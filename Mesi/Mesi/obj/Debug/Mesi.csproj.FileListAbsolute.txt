@@ -1,5 +1,0 @@
-C:\Users\Korisnik\Desktop\Mesi\Mesi\bin\Mesi.dll
-C:\Users\Korisnik\Desktop\Mesi\Mesi\bin\Mesi.pdb
-C:\Users\Korisnik\Desktop\Mesi\Mesi\obj\Debug\Mesi.csprojResolveAssemblyReference.cache
-C:\Users\Korisnik\Desktop\Mesi\Mesi\obj\Debug\Mesi.dll
-C:\Users\Korisnik\Desktop\Mesi\Mesi\obj\Debug\Mesi.pdb
