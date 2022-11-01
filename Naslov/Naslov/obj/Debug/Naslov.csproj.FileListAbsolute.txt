@@ -1,5 +1,0 @@
-C:\Users\Korisnik\Desktop\Naslov\Naslov\bin\Naslov.dll
-C:\Users\Korisnik\Desktop\Naslov\Naslov\bin\Naslov.pdb
-C:\Users\Korisnik\Desktop\Naslov\Naslov\obj\Debug\Naslov.csprojResolveAssemblyReference.cache
-C:\Users\Korisnik\Desktop\Naslov\Naslov\obj\Debug\Naslov.dll
-C:\Users\Korisnik\Desktop\Naslov\Naslov\obj\Debug\Naslov.pdb
