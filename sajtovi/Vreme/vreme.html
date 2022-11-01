@@ -1,0 +1,60 @@
+﻿<html>
+<head>
+ <title>Igor Kremic | Vreme</title>
+ <meta charset="utf-8" />
+    <link href="vremestajlllll.css" rel="stylesheet" />
+</head>
+<body>
+ <div id="naslov">Turistička agencija "Planinar"</div>
+ <table>
+ <tr>
+ <td class="selektovan"><a class="bela" href="vreme.html">Početna</a>
+ </td>
+ <td class="linkovi" id="linija"><a class="plava" href="oautoruvreme.html">
+ O autoru</a></td>
+ <td class="linkovi"><a class="plava" href="uputstvovreme.html">Uputstvo</a>
+ </td>
+ </tr>
+ </table>
+ <br /><br />
+ <div id="container">
+ <div id="izbor">
+ Izaberite grad :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <select id="meni" onchange="fun(this)">
+ <option value="beograd">Beograd</option>
+ <option value="nis">Niš</option>
+ <option value="vranje">Vranje</option>
+ <option value="kragujevac">Kragujevac</option>
+ <option value="jagodina">Jagodina</option>
+ <option value="subotica">Subotica</option>
+ <option value="novi-sad">Novi Sad</option>
+ <option value="pancevo">Pančevo</option>
+ <option value="cacak">Čačak</option>
+ <option value="leskovac">Leskovac</option>
+ </select>
+ </div>
+ <iframe src="https://naslovi.net/vremenska-prognoza/" id="prognoza">
+ </iframe>
+ </div>
+ <div id="footer">&copy Turistička agencija "Planinar"</div>
+ <script >
+     function fun(x) {
+         var selektovanavrednost = x.value;
+         var url = "https://naslovi.net/vremenska-prognoza/" + selektovanavrednost;
+         document.getElementById("prognoza").src = url;
+         switch (selektovanavrednost) {
+             case "beograd": window.open("beograd.html", "", "width=300,height=200, top=300, left=1000"); break;
+             case "nis": window.open("nis.html", "", "width=300, height=200,top=300, left=1000"); break;
+             case "vranje": window.open("vranje.html", "", "width=300,height=200, top=300, left=1000"); break;
+             case "kragujevac": window.open("kragujevac.html", "", "width=300,height=200, top=300, left=1000"); break;
+             case "jagodina": window.open("jagodina.html", "", "width=300,height=200, top=300, left=1000"); break;
+             case "subotica": window.open("subotica.html", "", "width=300,height=200, top=300, left=1000"); break;
+             case "novi-sad": window.open("novisad.html", "", "width=300, height=200, top=300, left=1000"); break;
+             case "pancevo": window.open("pancevo.html", "", "width=300, height=200, top=300, left=1000"); break;
+             case "cacak": window.open("cacak.html", "", "width=300, height=200,top=300, left=1000"); break;
+             case "leskovac": window.open("leskovac.html", "", "width=300,height=200, top=300, left=1000"); break;
+         }
+     }
+ </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+﻿<html>
+<head>
+ <title>Igor Kremic | Sijalica</title>
+<style>
+    #naslov{
+ font-family:Arial;
+ font-size:xx-large;
+ color:blue;
+ text-align:center;
+ margin-top:50px;
+ margin-bottom:50px;
+ font-weight:bold;
+}
+table {
+ width:100%;
+ text-align:center;
+}
+#son {
+ padding:15px 25px;
+ background-color:green;
+ color:white;
+ border-radius:10px;
+ cursor:pointer;
+}
+#soff {
+ padding:15px 25px;
+ background-color:red;
+ color:white;
+ border-radius:10px;
+ cursor:pointer;
+}
+</style>
+</head>
+<body>
+ <div id="naslov">Zadatak: ON/OFF sijalicu</div>
+ <table>
+ <tr>
+ <td><input id="son" type="button" value="Sijalica ON"
+ onclick="fun(1);"/></td>
+ <td> <img src="sijalicaoff.gif"id="slika" /></td>
+ <td><input id="soff" type="button" value="Sijalica OFF"
+ onclick="fun(2);"/></td>
+ </tr>
+ </table>
+ <script>
+     function fun(n) {
+         switch (n) {
+             case 1: document.getElementById("slika").src ="sijalicaon.gif";
+                 break;
+             case 2: document.getElementById("slika").src ="sijalicaoff.gif";
+                 break;
+         }
+     }
+
+ </script>
+</body>
+</html>
